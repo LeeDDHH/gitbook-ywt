@@ -1,0 +1,26 @@
+{
+  "name": "gitbook-ywt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/gitbook-cli/bin/gitbook.js install && node node_modules/gitbook-cli/bin/gitbook.js serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "dependencies": {
+    "gitbook-plugin-advanced-emoji": "^0.2.2",
+    "gitbook-plugin-anchors": "^0.7.1",
+    "gitbook-plugin-back-to-top-button": "^0.1.4",
+    "gitbook-plugin-collapsible-chapters": "^0.1.8",
+    "gitbook-plugin-expand-active-chapter": "^1.0.0",
+    "gitbook-plugin-hide-published-with": "^1.0.3",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-navigator": "^1.1.1",
+    "gitbook-plugin-numbered-headings": "^1.1.1",
+    "gitbook-plugin-todo": "^0.1.3"
+  }
+}
