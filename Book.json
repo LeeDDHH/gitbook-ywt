@@ -9,7 +9,6 @@
     "navigator",
     "hide-published-with",
     "anchors",
-    "back-to-top-button",
     "numbered-headings",
     "hints",
     "advanced-emoji",
@@ -29,5 +28,8 @@
           "facebook", "google", "twitter", "weibo", "instapaper"
       ]
     }
+  },
+  "styles": {
+    "website": "./docs/css/index.css"
   }
 }
