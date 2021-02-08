@@ -1,0 +1,33 @@
+{
+  "language": "ja",
+  "title": "Kamo's YWT",
+  "description": "カモの毎日のYWTをまとめるGitBook",
+  "src": "docs",
+  "plugins": [
+    "expand-active-chapter",
+    "collapsible-chapters",
+    "navigator",
+    "hide-published-with",
+    "anchors",
+    "back-to-top-button",
+    "numbered-headings",
+    "hints",
+    "advanced-emoji",
+    "todo"
+  ],
+  "pluginsConfig":
+  {
+    "sharing":
+    {
+      "facebook": false,
+      "twitter": true,
+      "google": false,
+      "weibo": false,
+      "instapaper": false,
+      "vk": false,
+      "all": [
+          "facebook", "google", "twitter", "weibo", "instapaper"
+      ]
+    }
+  }
+}
