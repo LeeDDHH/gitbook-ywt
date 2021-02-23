@@ -1,3 +1,9 @@
+# グローバルインストール
+
+```shell
+npm install -g netlify-cli
+```
+
 # 初期化
 
 ```shell
