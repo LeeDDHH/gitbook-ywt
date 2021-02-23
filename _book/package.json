@@ -8,7 +8,7 @@
     "cmd:install": "node node_modules/gitbook-cli/bin/gitbook.js install",
     "cmd:serve": "node node_modules/gitbook-cli/bin/gitbook.js serve",
     "cmd:build": "node node_modules/gitbook-cli/bin/gitbook.js build",
-    "patch:graceful-fs": "cp -f scripts/graceful-fs/* node_modules/graceful-fs"
+    "patch:graceful-fs": "cp -f scripts/graceful-fs/polyfills.js node_modules/npm/node_modules/graceful-fs/polyfills.js"
   },
   "author": "",
   "license": "ISC",
@@ -27,7 +27,6 @@
     "gitbook-plugin-hints": "^1.0.2",
     "gitbook-plugin-navigator": "^1.1.1",
     "gitbook-plugin-numbered-headings": "^1.1.1",
-    "gitbook-plugin-todo": "^0.1.3",
-    "netlify-cli": "^3.8.5"
+    "gitbook-plugin-todo": "^0.1.3"
   }
 }
