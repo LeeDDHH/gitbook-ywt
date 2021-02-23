@@ -15,6 +15,7 @@ jobs:
         with: 
           node-version: 12.x
       - run: npm install
+      - run: npm audit fix
       - run: npm run patch:graceful-fs
       - run: npm run cmd:build
 
