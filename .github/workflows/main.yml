@@ -16,7 +16,7 @@ jobs:
           node-version: 12.x
       - run: npm run patch:npmDownGrade
       - run: npm install
-      - run: npm audit fix
+      # - run: npm audit fix
       - run: npm run patch:graceful-fs
       - run: npm run cmd:install
       - run: npm run cmd:build
