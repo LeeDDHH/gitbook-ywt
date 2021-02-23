@@ -17,6 +17,7 @@ jobs:
       - run: npm install
       - run: npm audit fix
       - run: npm run patch:graceful-fs
+      - run: npm run cmd:install
       - run: npm run cmd:build
 
       - run: npx netlify-cli deploy --prod --dir=./_book

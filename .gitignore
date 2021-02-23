@@ -137,3 +137,6 @@ dist
 
 # Local Netlify folder
 .netlify
+
+# local _book directory
+_book/
