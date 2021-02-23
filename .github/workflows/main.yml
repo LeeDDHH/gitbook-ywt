@@ -14,6 +14,7 @@ jobs:
       - uses: actions/setup-node@v2
         with: 
           node-version: 12.x
+      - run: npm run patch:npmDownGrade
       - run: npm install
       - run: npm audit fix
       - run: npm run patch:graceful-fs
