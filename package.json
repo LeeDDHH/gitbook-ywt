@@ -12,7 +12,7 @@
     "cmd:prepare:mac": "npm run cmd:build && npm run patch:graceful-fs && npm run patch:deleteNoUseFiles",
     "cmd:release": "npx netlify-cli deploy --prod --dir=./_book",
     "cmd:release:mac": "npm run cmd:release && npm run clear:dir",
-    "direct-deploy": "npm run cmd:prepare:mac && npm run cmd:release:mac",
+    "dd": "npm run cmd:prepare:mac && npm run cmd:release:mac",
     "patch:npmDownGrade": "npm install --global npm@3.9.2",
     "patch:graceful-fs": "cp -f scripts/graceful-fs/polyfills.js node_modules/npm/node_modules/graceful-fs/polyfills.js",
     "patch:plugin": "cp -rp scripts/plugins/* _book/gitbook/",
